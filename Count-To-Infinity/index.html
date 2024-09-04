@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>∞ Count to Infinity ∞</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>∞ Count to Infinity ∞</h1>
+        <div class="counter" id="counter">0</div>
+        <button class="button" onclick="increment()">+</button>
+    </div>
+
+    <div class="link">
+        <a href="https://plato.stanford.edu/entries/paradox-zeno/" target="_blank">Zeno's Paradoxes</a>
+    </div>
+
+    <script>
+        let count = 0;
+        function increment() {
+            count++;
+            document.getElementById('counter').innerText = count;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: green;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 255, 0, 0.7);
+}
+
+.counter {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 255, 0, 0.7);
+}
+
+.button {
+    font-size: 2em;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.link {
+    position: absolute;
+    bottom: 10px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px rgba(0, 255, 0, 0.7);
+}
+
+.link a {
+    color: green;
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    transition: color 0.3s ease;
+}
+
+.link a:hover {
+    color: lime;
+}
