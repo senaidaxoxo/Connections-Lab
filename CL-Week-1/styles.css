@@ -61,8 +61,8 @@ section {
 }
 
 .main-image {
-    width: 80%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 1400px;
     height: auto;
     border-radius: 10px;
     background-color: #ccc;
@@ -91,7 +91,7 @@ section {
 
 .column img {
     width: 100%;
-    height: 80%; /* Fixed percentage height */
+    height: 80%;
     object-fit: contain;
     border-radius: 10px;
 }
