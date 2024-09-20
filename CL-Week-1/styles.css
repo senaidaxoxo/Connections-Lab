@@ -17,7 +17,6 @@ body {
 }
 
 .container {
-    width: 100%;
     margin: 20px;
     padding: 30px;
     padding-bottom: 30px;
@@ -126,10 +125,4 @@ section {
     background-color: yellow;
     color: #000;
     transform: scale(1.05);
-}
-
-body, .container {
-    padding-left: 0;
-    margin-left: 0;
-    overflow-x: hidden;
 }
