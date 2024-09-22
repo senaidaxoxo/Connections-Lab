@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin: 0;
+}
+
+#dinosaur {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background-image: url('dinosaur.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#revealButton {
+    display: block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#chicken {
+    width: 1980px;
+    height: 1080px;
+    background-image: url('chicken.jpg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
