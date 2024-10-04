@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, white, black);
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+header {
+    position: absolute;
+    top: 20px;  /* Keep it near the top of the page */
+    left: 30px; /* Align it to the left side */
+    width: 270px; /* Adjust width based on content */
+    text-align: left; /* Ensure the text inside is aligned to the left */
+    /* border: 1px solid white; */
+}
+
+header h1 {
+    font-family: Arial, sans-serif;
+    font-size: 4rem;
+    margin: 0;
+    text-align: left; /* Ensures the h1 text is aligned to the left */
+}
+
+
+.image-container {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#phone-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.hotspot {
+    position: absolute;
+    cursor: pointer;
+}
+
+.battery {
+    width: 250px; /* Adjust based on the battery area */
+    height: 450px; /* Adjust based on the battery area */
+    top: 35%;  /* Adjust based on the battery position */
+    left: 40%; /* Adjust based on the battery position */
+    background: rgba(255, 255, 255, 0.0); /* Make the hotspot area slightly visible */
+}
+
+.camera {
+    width: 250px; /* Adjust based on the battery area */
+    height: 180px; /* Adjust based on the battery area */
+    top: 10%;  /* Adjust based on the battery position */
+    left: 40%; /* Adjust based on the battery position */
+    background: rgba(255, 255, 255, 0.0); /* Make the hotspot area slightly visible */
+}
+
+.circuit {
+    width: 130px; /* Adjust based on the battery area */
+    height: 370px; /* Adjust based on the battery area */
+    top: 20%;  /* Adjust based on the battery position */
+    left: 10%; /* Adjust based on the battery position */
+    background: rgba(255, 255, 255, 0.0); /* Make the hotspot area slightly visible */
+}
+
+.info-box {
+    position: absolute;
+    display: none;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    z-index: 10;
+}
+

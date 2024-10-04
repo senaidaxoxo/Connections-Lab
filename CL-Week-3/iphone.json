@@ -1,0 +1,223 @@
+{
+    "Color Screen": {
+        "REEs": [
+            "Yttrium",
+            "Lanthanum",
+            "Praseodymium",
+            "Europium",
+            "Gadolinium",
+            "Terbium",
+            "Dysprosium"
+        ],
+        "Location Found": [
+            "China (Hunan, Guangdong, Jiangsu Provinces)",
+            "USA"
+        ],
+        "Labor Cost": "Varies based on country; higher in US, lower in China",
+        "Environmental Cost": "High due to extraction and waste materials",
+        "Greenhouse Gas Emissions": "Significant during production, especially in China",
+        "Financial Cost": "Dependent on market demand for REEs"
+    },
+    "Glass Polishing": {
+        "REEs": [
+            "Lanthanum",
+            "Cerium",
+            "Praseodymium"
+        ],
+        "Location Found": [
+            "China",
+            "USA (Molycorp, Lynas Corp)"
+        ],
+        "Labor Cost": "Moderate, based on supply chain",
+        "Environmental Cost": "Medium, depends on the glass production and polishing processes",
+        "Greenhouse Gas Emissions": "Moderate",
+        "Financial Cost": "Cost fluctuates with REE supply and demand"
+    },
+    "Phone Circuitry": {
+        "REEs": [
+            "Lanthanum",
+            "Praseodymium",
+            "Neodymium",
+            "Gadolinium",
+            "Dysprosium"
+        ],
+        "Location Found": [
+            "China",
+            "Chile",
+            "Peru",
+            "Mexico",
+            "Australia"
+        ],
+        "Labor Cost": "Higher in Australia and Chile, lower in China and Peru",
+        "Environmental Cost": "High in China due to less stringent regulations, lower in Australia and Chile",
+        "Greenhouse Gas Emissions": "High in China, moderate in Australia and Chile",
+        "Financial Cost": "Significant, driven by tech innovations"
+    },
+    "Speakers": {
+        "REEs": [
+            "Praseodymium",
+            "Neodymium",
+            "Gadolinium",
+            "Terbium",
+            "Dysprosium"
+        ],
+        "Location Found": [
+            "China (Hunan, Fujian, Guangdong Provinces)",
+            "Chile",
+            "Peru",
+            "Mexico",
+            "Australia"
+        ],
+        "Labor Cost": "Higher in Australia and Chile, lower in China and Peru",
+        "Environmental Cost": "Moderate, especially in countries with less stringent regulations like China",
+        "Greenhouse Gas Emissions": "High in China, moderate in Australia and Chile",
+        "Financial Cost": "Relatively low for individual components"
+    },
+    "Vibration Unit": {
+        "REEs": [
+            "Neodymium",
+            "Terbium",
+            "Dysprosium"
+        ],
+        "Location Found": [
+            "China (Hunan, Jiangxi Provinces)",
+            "Chile",
+            "Peru",
+            "Mexico",
+            "Australia"
+        ],
+        "Labor Cost": "Moderate in China, lower in Chile and Peru",
+        "Environmental Cost": "Moderate due to specialized magnets production, high in China",
+        "Greenhouse Gas Emissions": "Moderate",
+        "Financial Cost": "Cost driven by REE availability"
+    },
+    "Home Button": {
+        "REEs": [
+            "Sapphire",
+            "Silicon"
+        ],
+        "Location Found": [
+            "China (Silicon)",
+            "Sri Lanka",
+            "Burma",
+            "Australia",
+            "India"
+        ],
+        "Labor Cost": "Varies across regions, higher in Australia and India",
+        "Environmental Cost": "High in mining regions for sapphire like Burma",
+        "Greenhouse Gas Emissions": "Moderate in China, higher in regions with poor environmental protections",
+        "Financial Cost": "Fluctuates with market conditions"
+    },
+    "Microphone PCB": {
+        "REEs": [
+            "Nickel",
+            "Silicon",
+            "Neodymium iron boron",
+            "Copper"
+        ],
+        "Location Found": [
+            "China (Nickel, Silicon)",
+            "Chile",
+            "Peru",
+            "Mexico",
+            "Australia"
+        ],
+        "Labor Cost": "Varies depending on region",
+        "Environmental Cost": "Moderate to high depending on extraction and production methods",
+        "Greenhouse Gas Emissions": "Moderate",
+        "Financial Cost": "Fluctuates with market conditions"
+    },
+    "Battery": {
+        "REEs": [
+            "Cobalt",
+            "Lithium",
+            "Aluminum",
+            "Steel",
+            "Graphite",
+            "Lithium cobalt oxide"
+        ],
+        "Location Found": [
+            "Australia (Lithium)",
+            "DRC (Cobalt)",
+            "South America"
+        ],
+        "Labor Cost": "Higher in Australia, lower in South America",
+        "Environmental Cost": "High in DRC for cobalt due to unethical mining practices, moderate in Australia",
+        "Greenhouse Gas Emissions": "High, particularly from cobalt mining in the DRC",
+        "Financial Cost": "Fluctuates with market conditions"
+    },
+    "Primary Camera Module": {
+        "REEs": [
+            "Sapphire",
+            "Gold",
+            "Copper"
+        ],
+        "Location Found": [
+            "China (Gold)",
+            "Chile",
+            "Peru",
+            "Mexico",
+            "Australia",
+            "Sri Lanka",
+            "Burma",
+            "India"
+        ],
+        "Labor Cost": "Varies depending on region",
+        "Environmental Cost": "Moderate to high depending on extraction and production methods",
+        "Greenhouse Gas Emissions": "Moderate",
+        "Financial Cost": "Fluctuates with market conditions"
+    },
+    "Main Printed Circuit Board": {
+        "REEs": [
+            "Copper",
+            "Fiberglass",
+            "Aluminum",
+            "Polyimide"
+        ],
+        "Location Found": [
+            "Chile",
+            "Peru",
+            "Mexico",
+            "Australia"
+        ],
+        "Labor Cost": "Varies depending on region",
+        "Environmental Cost": "Moderate to high depending on extraction and production methods",
+        "Greenhouse Gas Emissions": "Moderate",
+        "Financial Cost": "Fluctuates with market conditions"
+    },
+    "Enclosure": {
+        "REEs": [
+            "Aluminum",
+            "Titanium",
+            "Stainless Steel",
+            "Glass"
+        ],
+        "Location Found": [
+            "Guinea",
+            "Australia",
+            "Vietnam",
+            "Brazil"
+        ],
+        "Labor Cost": "Varies depending on region",
+        "Environmental Cost": "Moderate to high depending on extraction and production methods",
+        "Greenhouse Gas Emissions": "Moderate",
+        "Financial Cost": "Fluctuates with market conditions"
+    },
+    "Main I/O / Audio Jack PCB": {
+        "REEs": [
+            "Copper",
+            "Brass",
+            "Steel"
+        ],
+        "Location Found": [
+            "Chile",
+            "Peru",
+            "Mexico",
+            "Australia"
+        ],
+        "Labor Cost": "Varies depending on region",
+        "Environmental Cost": "Moderate to high depending on extraction and production methods",
+        "Greenhouse Gas Emissions": "Moderate",
+        "Financial Cost": "Fluctuates with market conditions"
+    }
+}
