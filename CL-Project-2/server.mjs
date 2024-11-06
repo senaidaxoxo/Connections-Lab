@@ -23,7 +23,7 @@ async function scrapeRandomImage() {
     const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : `https://www.aiscribbles.com${imageUrl}`;
 
     // Extract title text and clean it up
-    const titleText = $('div.mt-3 h1.fs-4').text();
+    const titleText = $('div.mt-3 div.my-2').text();
     const cleanedTitle = titleText ? titleText.replace('— Free Stock Image', '').trim() : 'Untitled';
 
     // Save the scraped image and title to the images array
